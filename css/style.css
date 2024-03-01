@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+body {background-color: black;}
+a {text-decoration: none;}
+h1 {background-color: black; color: red; text-align: center;}
+.alink {display: flex; justify-content: center;}
+.alink img {width: 400px; height: 200px;}
+.ahead h2 {background-color: black; color: red;}
+.ahead p {font-size: medium; color: red;}
+.amain h2 {background-color: black; color: red; text-align: center; margin-left: 1%;}
+.amain p {font-size: medium; color: red;}
+.amain h3 {text-align: center; background-color: red; color: black;}
+.amain h4 {text-align: center; background-color: black; color: red;}
+.amain img {margin: 0% 35%;}
+.imagenes p {color: red;}
+.bgn h1 {background-color: black; font-size: medium;}
+.aul a {color: red;}
+.adiv small {color: red;}
+button {padding: 10px; color: black; background-color: red; font-family: Arial, Helvetica, sans-serif;}
+footer { display: flex;
+    align-content: center;
+    color: red;
+    margin-top: 4%;
+    flex-direction: column;}
+.bgn h1 {font-size: 60px; margin-right: 2%;}
+.disp img {display: flex;
+    flex-wrap: wrap;
+    border: 1px red solid;
+    width: 100%;
+    object-fit: contain;}
+.displ { margin:0px 10px;padding: 1%;}
+.aheade p { font-size: medium; color: red; display: flex; justify-content: space-between;}
+ol li { color: red;}
+.ahead {display: flex; justify-content: space-between; text-align: center; flex-direction: column; align-items: center;}
+.nav-link {color: red; border: 1px solid red; border-radius: 5px; padding: 10px;}
+.navbar-nav {column-gap: 6rem;}
+@media screen and (max-width: 600px) {
+.alink { display: flex; justify-content: center; width: 100%; height: 200px; }
+.logo { margin-left: 0;}
+}
+@media screen and (max-width: 800px){
+.logo {width: 100%;}
+
+}
+@media screen and (max-width: 1000px){
+.displ { display: flex; flex-wrap: wrap;}
+ .displ img { width: 100%; height: 200px;}
+}
+
