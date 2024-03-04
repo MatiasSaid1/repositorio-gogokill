@@ -60,4 +60,16 @@ ol li { color: red;}
 .amain img {
     flex-wrap: wrap; width: 100%;}
 }
+@media screen and (max-width: 600px){
+    .bng { display: flex; justify-content: center; width: 100%; height: 200px; }
+    .imagenes {display: flex; flex-wrap: wrap;}
+    
+}
+@media screen and (max-width: 800px) {
+    .bng { display: flex; justify-content: center; width: 100%; height: 200px; }
+    .imagenes  {display: flex; flex-wrap: wrap;}
+    
+    
+}
 
+   
