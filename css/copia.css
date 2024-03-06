@@ -38,7 +38,6 @@ ol li { color: red;}
 .nav-link {color: red; border: 1px solid red; border-radius: 5px; padding: 10px;}
 .navbar-nav {column-gap: 6rem;}
 .collapse { display: flex; justify-content: space-between; text-align: center; flex-direction: column; align-items: center;}
-.navbar-toggler-icon {color: red;}
 .amain { display: flex; justify-content: center; align-items: center; flex-direction: column;}
 @media screen and (max-width: 600px) {
 .alink { display: flex; justify-content: center; width: 100%; height: 200px; }
@@ -72,5 +71,3 @@ ol li { color: red;}
     
     
 }
-
-   
