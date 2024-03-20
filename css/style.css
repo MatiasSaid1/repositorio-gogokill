@@ -1,116 +1,115 @@
-*{
-    margin: 0;
-    padding: 0px;
-    list-style: none;
-    box-sizing: border-box;
-}
-body {background-color: black;}
-a {text-decoration: none;}
-h1 {background-color: black; color: red; text-align: center;}
-.alink {display: flex; justify-content: center;}
-.alink img {width: 400px; height: 200px;}
-.ahead h2 {background-color: black; color: red;}
-.ahead p {font-size: medium; color: red;}
-.amain h2 {background-color: black; color: red; text-align: center; margin-left: 1%;}
-.amain p {font-size: medium; color: red;}
-.amain h3 {text-align: center; background-color: red; color: black;}
-.amain h4 {text-align: center; background-color: black; color: red;}
-.imagenes p {color: red;}
-.bgn h1 {background-color: black; font-size: medium;}
-.aul a {color: red;}
-.adiv small {color: red;}
-button {padding: 10px; color: black; background-color: red; font-family: Arial, Helvetica, sans-serif;}
-footer { display: flex;
-    align-content: center;
-    color: red;
-    margin-top: 4%;
-    flex-direction: column;}
-.bgn h1 {font-size: 60px; margin-right: 2%;}
-.disp img {display: flex;
-    flex-wrap: wrap;
-    border: 1px red solid;
-    width: 100%;
-    object-fit: contain;}
-.displ { margin:0px 10px;padding: 1%;}
-.aheade p { font-size: medium; color: red; display: flex; justify-content: space-between;}
-ol li { color: red;}
-.ahead {display: flex; justify-content: space-between; text-align: center; flex-direction: column; align-items: center;}
-.nav-link {color: red; border: 1px solid red; border-radius: 5px; padding: 10px;}
-.navbar-nav {column-gap: 6rem;}
-.collapse { display: flex; justify-content: space-between; text-align: center; flex-direction: column; align-items: center;}
-.navbar-toggler-icon {color: red;}
-.amain { display: flex; justify-content: center; align-items: center; flex-direction: column;}
-.grid-container {
-    border: 1px solid red; 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 150px);
-    row-gap: 25px;
-    column-gap: 25px;
-}
-.grid-container p{ color: red;}
-.grid-item {
-    border: 1px red;
-}
-.grid-item-01 {
-    grid-column: 1/2;
-    grid-row: 1/4;
-}
-.grid-item-02{
-    grid-column: 2/3;
-    grid-row: 1/4;
-}
-.grid-item-03{
-    grid-column: 3/4;
-    grid-row: 1/4;
-}
-.grid-item-04{
-    grid-column: 2/3;
-    grid-row: 4/7;
-}
-.grid-item-05{
-    grid-column: 3/4;
-    grid-row: 4/7;
-}
-.grid-item-06{
-    grid-column: 1/2;
-    grid-row: 4/7;
+* {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
+body a {
+  text-decoration: none;
+}
+body h1 {
+  background-color: black;
+  color: red;
+  text-align: center;
+}
+body .alink {
+  display: flex;
+  justify-content: center;
+}
+body .alink img {
+  width: 400px;
+  height: 200px;
+}
+body .ahead {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+body .ahead h2 {
+  background-color: black;
+  color: red;
+}
+body .ahead p {
+  font-size: medium;
+  color: red;
+}
+body .ahead .nav-link {
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 10px;
+}
+body .ahead .navbar-nav {
+  column-gap: 6rem;
+}
+body .ahead .navbar-nav .collapse {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+body .ahead button {
+  padding: 10px;
+  color: black;
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .disp img {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px red solid;
+  width: 100%;
+  object-fit: contain;
+  width: "915";
+  height: "600";
+}
+body .displ {
+  margin: 0px 10px;
+  padding: 1%;
+}
+body footer {
+  display: flex;
+  align-content: center;
+  color: red;
+  margin-top: 4%;
+  flex-direction: column;
+}
+body .amain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .amain h2 {
+  background-color: black;
+  color: red;
+  text-align: center;
+  margin-left: 1%;
+}
+body .amain p {
+  font-size: medium;
+  color: red;
+}
+body .amain h3 {
+  text-align: center;
+  background-color: red;
+  color: black;
+}
+body .amain h4 {
+  text-align: center;
+  background-color: black;
+  color: red;
+}
+body .amain img {
+  width: 500px;
+  height: 500px;
+}
 
-@media screen and (max-width: 600px) {
-.alink { display: flex; justify-content: center; width: 100%; height: 200px; }
-.logo { margin-left: 0;}
-}
-@media screen and (max-width: 800px){
-.logo {width: 100%;}
-
-}
-@media screen and (max-width: 1000px){
-.displ { display: flex; flex-wrap: wrap;}
- .displ img { width: 100%; height: 200px;}
-}
-
-@media screen and (max-width: 600px){
-.amain {
-    display: flex; flex-wrap: wrap; 
-    width: 100%;
-}
-.amain img {
-    flex-wrap: wrap; width: 100%;}
-}
-@media screen and (max-width: 600px){
-    .bng { display: flex; justify-content: center; width: 100%; height: 200px; }
-    .grid-container div{
-        display: grid; align-items: center;
-    }
-    
-}
-@media screen and (max-width: 800px) {
-    .bng { display: flex; justify-content: center; width: 100%; height: 200px; }
-    .grid-container div{
-        display: grid; align-items: center;
-    }
-}
-
-   
+/*# sourceMappingURL=style.css.map */
